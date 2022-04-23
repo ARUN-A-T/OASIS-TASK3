@@ -1,0 +1,109 @@
+#convert {
+    background-color: blue;
+  }
+  #convert:hover {
+    background-color: greenyellow;
+    color:red;
+  }
+ #clear:hover
+ {
+     background-color:red ;
+     color:yellow;
+ }
+  h1 {
+    font-family: sans-serif;
+    color: #70b2e5;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: blue;
+    font-family: cursive, sans-serif;
+  }
+ 
+  button {
+    padding: 10px;
+    font-size: 1.3em;
+    color: red;
+    background-color: blue;
+  }
+  .title {
+      text-align: center;
+      background:url("https://i.pinimg.com/736x/01/5a/17/015a1757e67f766a12621af543b3a5fd.jpg");
+      background-position: center center;
+      background-size: cover;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+            display: fixed;
+			background-color: black;
+      background-repeat: no-repeat;
+     
+      background-position: center;
+      width:100%;
+      height: 100%;
+  }
+.inp1 {
+    align-items: center;
+    margin-left: 520px;
+}
+.inp2 {
+    align-items: center;
+    margin-left: 520px;
+}
+#sign {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+
+.rainbow {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+.wh{
+    color: white;
+}
+#logo{
+    text-align:right;
+  }
+  .wh{
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  
+    
+    color:red;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px blue, 0 0 20px lightblue, 0 0 10px aqua, 0 0 30px blue, 0 0 30px blue;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px blue6, 0 0 20px blue, 0 0 20px blue, 0 0 10px blue, 0 0 30px blue, 0 0 30px blue;
+    }
+  }
